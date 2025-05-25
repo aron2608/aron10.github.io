@@ -79,6 +79,99 @@ footer {
   font-size: 0.9em;
 }
 
+/* Tagesplan section */
+#tagesplan {
+  background-color: #f0f7fb;
+  border: 2px solid #026196;
+  border-radius: 10px;
+  padding: 20px 30px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(2, 97, 150, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tagesplan h2 {
+  color: #026196;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#tagesplan ol {
+  padding-left: 1.2rem;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Kontakt section */
+#kontakt {
+  background-color: #026196;
+  color: white;
+  max-width: 450px;
+  margin: 3rem auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(223, 59, 7, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#kontakt h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #df3b07;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+#kontakt label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+#kontakt input,
+#kontakt textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#kontakt input:focus,
+#kontakt textarea:focus {
+  outline: 2px solid #df3b07;
+  background-color: #eaf6fc;
+  color: #026196;
+}
+
+#kontakt textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#kontakt button {
+  width: 100%;
+  background-color: #df3b07;
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+#kontakt button:hover {
+  background-color: #b33405;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .info-section {
